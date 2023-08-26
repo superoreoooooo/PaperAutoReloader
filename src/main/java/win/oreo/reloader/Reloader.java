@@ -23,9 +23,6 @@ public final class Reloader extends JavaPlugin {
          task = Bukkit.getScheduler().runTaskTimer(this, () -> {
             File dir = new File("plugins/");
             File[] files = dir.listFiles();
-            for (File f : files) {
-                Bukkit.getConsoleSender().sendMessage(f.getName());
-            }
 
             if (files != null) {
                 for (File file : files) {
