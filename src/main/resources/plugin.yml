@@ -1,0 +1,7 @@
+name: Reloader
+version: '${project.version}'
+main: win.oreo.reloader.Reloader
+api-version: 1.19
+authors: [ superoreo ]
+description: 서버자동재시작기
+website: github.com/superoreoooooo
